@@ -5,7 +5,5 @@
     const trimmedValue = nameInput.value.trim();
     if (trimmedValue === '') {
         nameOutput.textContent = 'Anonymous';
-    } else {
-    nameOutput.textContent = trimmedValue;
-    }
+    } 
     });
